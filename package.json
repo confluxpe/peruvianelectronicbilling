@@ -2,7 +2,7 @@
   "name": "peruvianelectronicbilling",
   "version": "1.0.0",
   "description": "Peruvian Electronic Invoice using the PSE Conflux (Boleta, Factura, Nota Credito, Nota Debito, Guia Remision, Liquidacion Compra, Comprobante Retención, etc)",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/confluxpe/peruvianelectronicbilling/issues"
   },
-  "homepage": "https://github.com/confluxpe/peruvianelectronicbilling#readme"
+  "homepage": "https://github.com/confluxpe/peruvianelectronicbilling#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ruc-validate": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
